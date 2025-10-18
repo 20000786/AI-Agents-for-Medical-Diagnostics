@@ -43,10 +43,16 @@ OPENAI_API_KEY=your_key_here
 ### 4. Make Your Changes
 You can contribute in several ways:
 - Add new **medical reports** under `/Medical Reports/`
-- Improve **agent logic** inside `/Utils/Agents.py`
+- Improve or extend **agent logic** inside `/Utils/Agents.py`
 - Add new **provider adapters** (e.g., `/Utils/open_router.py`)
 - Refine **prompts**, output formats, or diagnostic explanations
 - Improve **documentation**, comments, or examples
+
+> 💡 **If you want to test a different model or agent logic**,  
+> please **create a new file** under `/Utils/` (for example:  
+> `Agents_GPT4.py` or `Agents_LocalLLM.py`) instead of modifying  
+> the main `Agents.py`.  
+> This keeps the repository stable and allows multiple model setups to coexist.
 
 ### 5. Test Before You Commit
 Run:
