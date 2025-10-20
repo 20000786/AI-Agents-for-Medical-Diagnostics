@@ -19,7 +19,7 @@ be uploaded or referenced.
 
 ### 1. Fork and Clone
 ```bash
-git clone https://github.com/20000786/AI-Agents-for-Medical-Diagnostics.git
+git clone https://github.com/<your-username>/AI-Agents-for-Medical-Diagnostics.git
 cd AI-Agents-for-Medical-Diagnostics
 ```
 
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 Add your `.env` file locally (never commit it!):
 ```
-API_TOKEN=
+OPENAI_API_KEY=your_key_here
 ```
 
 ### 4. Make Your Changes
